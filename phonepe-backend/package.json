@@ -1,0 +1,20 @@
+{
+  "name": "phonepe-checkout-server",
+  "version": "1.0.0",
+  "description": "Backend server for PhonePe payment integration.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "querystring": "^0.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
